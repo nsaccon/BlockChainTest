@@ -64,7 +64,7 @@ class BlockChain{
 let newChain = new BlockChain();
 console.log("Mining Block 1...");
 newChain.addBlock(new Block(1, Date.now().toString(), { amount: 6 }));
-//console.log("Mining Block 2...");
-//newChain.addBlock(new Block(2, Date.now().toString(), { amount: 14 }));
-//console.log("Mining Block 3...");
-//newChain.addBlock(new Block(3, Date.now().toString(), { amount: 38 }));
+console.log("Mining Block 2...");
+newChain.addBlock(new Block(2, Date.now().toString(), { amount: 14 }));
+console.log("Mining Block 3...");
+newChain.addBlock(new Block(3, Date.now().toString(), { amount: 38 }));
